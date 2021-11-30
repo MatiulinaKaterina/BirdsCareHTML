@@ -1,0 +1,10 @@
+@media screen and (max-width: 1400px){
+    .section-partners-flex{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px){
+    .hamburger-menu{
+        display: block;
+    }
+    .hidden-menu-ticker {
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .log-button{
+        display: none;
+    }
+    .main{
+        height: 450px;
+    }
+    .main__title{
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+    .main{
+        width: 100%;
+        height: 660px;
+        background-image: url(../images/b3.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .btn-menu {
+        top: 30px;
+        left: 5px;
+
+    }
+    .cont-blog-flex{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact-block-flex{
+        width: 710px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .form-registr{
+        width: 720px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .form-input{
+        width: 300px;
+        height: 20px;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.3rem;
+    }
+    .form-message{
+        width: 665px;
+        height: 170px;
+    }
+    .section-partners{
+        width: 100%;
+        height: 450px;
+        background-color: #333333;
+      }
+      .section-partners__logo{
+        margin: 10px 10px;
+        width: 150px;
+        height: 50px;
+      }
+      .section-partners-flex{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .section-partners__header{
+        margin: 0px auto 0px;
+        text-align: center;
+        padding-top: 35px;
+      }
+}
